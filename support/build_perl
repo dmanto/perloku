@@ -1,9 +1,9 @@
 #!/bin/sh
-PERL_VERSION="perl-5.18.1"
+PERL_VERSION="perl-5.22.0"
 PERLBREW_URL="http://install.perlbrew.pl"
 CPANM_URL="http://cpanmin.us"
 
-PERLBREW_ROOT="/tmp/perl"
+PERLBREW_ROOT="/app/vendor/tmp/perl"
 PERLBREW_INSTALL_OPTIONS="-Duserelocatableinc -n -v"
 
 PERL_ROOT="$PERLBREW_ROOT/perls/$PERL_VERSION"
